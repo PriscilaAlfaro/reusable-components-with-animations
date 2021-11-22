@@ -13,16 +13,6 @@ const NotFoundContainer = styled.footer`
     justify-content: center;
 `
 
-const NotFoundButton= styled.button`
-    width: 50px;
-    display: flex;
-    margin: 50px;
-    color: white;
-    justify-content: center;
-    background: green;
-
-`
-
 const NotFound = () => {
     const defaultOptions = {
         loop: true,

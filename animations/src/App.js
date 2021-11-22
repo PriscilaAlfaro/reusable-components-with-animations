@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Loaders from './components/Loaders';
 import NotFound from './components/NotFound';
+import Congrats from './components/Congrats';
 
 const MainContainer = styled.main`
     text-align: center;
@@ -18,6 +19,7 @@ function App() {
     <MainContainer>
     <Header/>
     <NotFound/>
+    <Congrats/>
     <Loaders />
     <Footer />
     </MainContainer>
