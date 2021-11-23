@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import Button from '../Button';
 import Lottie from "react-lottie";
 import animationData from "../../lotties/website-error-404-animation.json";
